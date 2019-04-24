@@ -1,7 +1,7 @@
 # Simple Pub-Sub Example
-This example have 2 entity:
-Publisher - publish a message;
-Subscriber - get message from queue
+This example have 2 entity:  
+* Publisher. Publish a message;  
+* Subscriber. Get message from queue.
 
 ## Dependencies
 * `libuv`
