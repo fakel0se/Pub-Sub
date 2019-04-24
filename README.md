@@ -4,15 +4,15 @@ This example have 2 entity:
 * Subscriber. Get message from queue.
 
 ## Dependencies
-* `g++`
+* `g++`  
 Debian/Ubuntu/Mint: `sudo apt install g++`
-* `cmake`
+* `cmake`  
 Debian/Ubuntu/Mint: `sudo apt install cmake`
-* `libuv`
+* `libuv`  
 Debian/Ubuntu/Mint: `sudo apt install libuv1-dev`
-* `openssl`
+* `openssl`  
 Debian/Ubuntu/Mint: `sudo apt install libssl-dev`
-* `AMQP_CPP`
+* `AMQP_CPP`  
 Download and install it from [GitHub](https://github.com/CopernicaMarketingSoftware/AMQP-CPP).
 
 ## Install
