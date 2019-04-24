@@ -23,12 +23,8 @@ Download and install it from [GitHub](https://github.com/CopernicaMarketingSoftw
 5) Execute `cmake .. && make`.
 
 ## Run
-Start publisher `build/publisher`.
-
-Type user you want to message to.
-
-Send message.
-
-Start subcriber `build/subscriber`.
-
-Type your nickname.
+1) Start publisher `build/publisher`
+2) Type user you want to message to
+3) Send message
+4) Start subcriber `build/subscriber`
+5) Type your nickname
