@@ -1,30 +1,34 @@
-#Simple Pub-Sub Example
+# Simple Pub-Sub Example
 This example have 2 entity:
 Publisher - publish a message;
 Subscriber - get message from queue
 
-#Dependencies
-Install `libuv`
-*Debian/Ubuntu/Mint
-`sudo apt install libuv1`
+## Dependencies
+* `libuv`
+Debian/Ubuntu/Mint: `sudo apt install libuv1-dev`
+* `g++`
+Debian/Ubuntu/Mint: `sudo apt install g++`
+* `openssl`
+Debian/Ubuntu/Mint: `sudo apt install libssl`
+* `cmake`
+Debian/Ubuntu/Mint: `sudo apt install cmake`
+* `AMQP_CPP`
+Download and install it from [GitHub](https://github.com/CopernicaMarketingSoftware/AMQP-CPP).
 
-Download and install `AMQP_CPP` from
-[https://github.com/CopernicaMarketingSoftware/AMQP-CPP](GitHub)
+## Install
+1) Clone repo to your PC.
+2) Enter to project directory.
+3) Create `build` directory.
+4) Go to the folder `build`.
+5) Execute `cmake .. && make`.
 
-Install `cmake`
-*Debian/Ubuntu/Mint
-`sudo apt install cmake`
+## Run
+Start publisher `build/publisher`.
 
-#Instruction:
-1.Clone repo to your PC
-2.Enter to project directory
-3.Create `build` directory
-4.Go to the folder `build`
-5.Execute `cmake .. && make`
-
-#Run
-Start publisher `build/publisher`
 Type user you want to message to.
+
 Send message.
-Start subcriber `build/subscriber`
+
+Start subcriber `build/subscriber`.
+
 Type your nickname.
