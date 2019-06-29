@@ -70,7 +70,7 @@ int main()
     MyHandler handler(loop);
 
     // make a connection
-    AMQP::TcpConnection connection(&handler, AMQP::Address("amqp://admin:1234@52.29.7.9/"));
+    AMQP::TcpConnection connection(&handler, AMQP::Address("amqp://test:test@18.184.229.222/"));
 
     // we need a channel too
     AMQP::TcpChannel channel(&connection);
@@ -109,7 +109,7 @@ int main()
         if (msg == "break")
             break;
 
-//        std::cout << "Echo: " << msg << "\n\n";
+//        std::cout << "Msg: " << msg << " route key:" << name  <<  "\n";
 
         channel.publish("chat", name, msg);
     }
